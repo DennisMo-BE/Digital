@@ -1,0 +1,461 @@
+/*MOBILE FIRST**/
+/**--------------------------Begin Fonts -------------------**/
+@font-face {
+	font-family: "latoB";
+	src: url(../fonts/Lato-Bold.ttf)
+}
+@font-face {
+	font-family: "";
+	src: url(../fonts/.ttf);
+}
+
+/* Stijling header*/
+header{
+	background: url('../images/banner.png');
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+
+.mijnfixed{
+	position:absolute;
+}
+
+.navtext{
+	font-family: "latoB";
+	font-size: 0.77rem;
+	color: white;
+}
+
+body > header > div:nth-child(4) > div > h1 {
+ 	color:white;
+ 	font-weight: 800;
+ 	font-size:2rem;
+ 	font-family: "latoB";
+ 	margin-top:42%;
+ }
+
+ body > header > div.row.m-0.mt-2 > div {
+ 	color:white;
+ 	font-weight: 100;
+ 	font-size:1rem;
+ 	font-family: "latoB";
+ }
+
+/* Stijling alle sections*/
+.bgimage {
+  width:100vw;
+  height:auto;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.bgimage2 {
+  width:100vw;
+  height:auto;
+  margin-top: -3px;
+  background: url('../images/banner3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.bgimage3 {
+  width:100vw;
+  height:auto;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.bgimage4 {
+  width:100vw;
+  height:auto;
+  background: url('../images/banner5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.bgimage5 {
+  width:auto;
+  height:auto;
+  background: none;
+  background-color: #2f2f2f;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.bgimage6 {
+  width:auto;
+  height:auto;
+  margin-top: -5px;
+  background: url('../images/banner7.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+body > main > section.bgimage5 > div > div > div.col-lg-4 {
+      background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.bgimage7 {
+  width:auto;
+  height:auto;
+  margin-top: -2px;
+  background: url('../images/banner8.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+
+body > main > section.bgimage4 > div > div > div > h2 {
+	color:white;
+}
+
+body > main > section.bgimage4 > div > div > div > h2 {
+	margin-top: 5%;
+	margin-left: 3%;
+}
+
+body > main > section > div > div > div > div > div > h3 {
+	color:white;
+	font-family: "latoB";
+	font-weight: 100;
+}
+
+body > main > section > div > div > div > div > div > p {
+	color: #bfbfbf;
+	font-family: "latoB";
+	font-weight: 100;
+}
+
+body > main > section > div > div > div> h2 {
+	font-family: "latoB";
+	color:#383738;
+}
+
+body > main > section > div > div > div > h2 > span {
+	color: #fc9e20;
+}
+
+
+body > main > section > div > div > div > p {
+	font-family: "latoB";
+	width: auto;
+
+}
+body > main > section > div > div > div {
+	margin-top: 9%;
+}
+
+body > main > section.bgimage2 > div > div > div.col-sm-4 > h2 > span {
+	color: #fc9e20;
+}
+
+body > main > section.bgimage2 > div > div > div.col-sm-4 > h2 {
+	color: white;
+}
+
+body > main > section.bgimage2 > div > div > div.col-sm-4 > p {
+	color:white;
+}
+
+.card {
+	background-color: transparent;
+	border:0px;
+}
+
+body > main > section > div > div > div > div > h3 {
+	font-family: "latoB";
+	color: #fba419;
+}
+
+body > main > section > div > div > div > div > p {
+	font-family: "latoB";
+	color: #bfbfbf;
+}
+
+body > main > section.bgimage6 > div > div > div:nth-child(2) > h2 {
+  color:white;
+}
+
+.blockq blockquote {
+  color:#bfbfbf;
+}
+
+.blockq p {
+  color:#ffffff;
+}
+
+#carouselExampleIndicators > ol > li {
+  background-color:#fba419;
+  border-radius:100px;
+  width:15px;
+  height: 15px;
+}
+
+#carouselExampleIndicators {
+  width:300px;
+  height: 450px;
+}
+
+#carouselExampleIndicators > div > div > blockquote {
+  font-size: 1.6rem;
+}
+
+body > main > section.bgimage7 > div > div:nth-child(1) > div > h2 {
+  color:white;
+}
+
+body > main > section.bgimage7 > div > div:nth-child(2) > div > a > img {
+  padding-right: 2%;
+  padding-bottom:2%;
+  background: none;
+}
+
+body > main > section.bgimage7 > div > div:nth-child(4) > div > p {
+  color:white;
+}
+
+body > header > div:nth-child(3) {
+  padding-top: 5%;
+}
+
+body > header > div:nth-child(3) > div > a > img {
+  width: 10%;
+  height: 50%;
+}
+
+.buttonstijl {
+  color: white;
+  background-color: #fba419;
+  border: none;
+  border-radius: 100px;
+  font-family: 'latoB'
+}
+
+hr {
+    border: none;
+    height: 5px;
+    width: 175px;
+    background-color: #fba419;
+    margin: 0;
+}
+
+#three > div > div > div.col-md-4 > p {
+  color:white;
+}
+
+#three > div > div > div.col-md-4 > h2 {
+  color:white
+}
+
+/*** MEDIA QUERIES  ***/
+
+@media screen and (min-width: 768px) {
+   /*code voor tablet en groter*/
+
+/*Stijling voor header*/
+body > main > section.bgimage5 > div > div > div.col-lg-4 {
+      background-color: transparent;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+ 
+
+body > header > div:nth-child(4) > div > h1 {
+ 	color:white;
+	font-weight: 800;
+	font-size:3rem;
+ 	font-family: "latoB";
+ 	margin-top:30%;
+ }
+
+body > main > section > div > div > div> h2 {
+	font-family: "latoB";
+	color:#383738;
+	font-size:3.75rem;
+
+}
+
+body > main > section > div > div > div > p {
+	font-family: "latoB";
+	width: auto;
+
+}
+
+body > header > div:nth-child(3) {
+  padding-top: 10%;
+}
+
+body > header > div:nth-child(3) > div > a > img {
+  width: 4%;
+  height: 0%;
+}
+
+/*Stijling voor Sections*/
+
+.bgimage {
+  width:100vw;
+  height:auto;
+  background: none;
+  background: url('../images/banner2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  padding-bottom: 50px;
+
+}
+
+.bgimage2 {
+  padding-bottom: 50px;
+}
+
+.bgimage3 {
+  width:100vw;
+  height:auto;
+  background: url('../images/banner4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  padding-bottom: 50px;
+
+}
+
+.bgimage4 {
+  padding-bottom: 50px;
+
+}
+.bgimage5 {
+  width:auto;
+  height:auto;
+  background: url('../images/banner6.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  padding-bottom: 50px;
+}
+
+/*Stijlijng out of mobile*/
+
+#three > div > div > div.col-md-4 > p {
+  color:black;
+  
+}
+
+#three > div > div > div.col-md-4 > h2 {
+  color:#383738;
+}
+
+
+}
+@media screen and (min-width: 992px) {
+  /*code voor beeldscherm en groter*/
+
+
+/*Stijling voor header */
+
+body > header > div:nth-child(4) > div > h1 {
+ 	color:white;
+ 	font-weight: 800;
+ 	font-size:4rem;
+ 	font-family: "latoB";
+ 	margin-top:20%
+ }
+body > main > section > div > div > div {
+	margin-top: 4%;
+}
+body > header > div:nth-child(4) > div > p {
+	color:white;
+	font-weight: 200;
+	font-size:1.1rem;
+	font-family: "latoB";
+
+}
+
+body > main > section > div > div > div > p {
+	margin-top: 15%;
+}
+
+body > header > div:nth-child(3) {
+  padding-top: 4.5%;
+}
+
+body > header > div:nth-child(3) > div > a > img {
+  width: 4%;
+  height: 0%;
+}
+
+
+/*Hoogtes voor sections */
+header {
+  height: 825px;
+}
+.bgimage {
+  width:100vw;
+  height:825px;
+}
+
+.bgimage2 {
+  width:100vw;
+  height:825px;
+}
+
+.bgimage3 {
+  width:100vw;
+  height:825px;
+
+}
+
+.bgimage4 {
+  width:100vw;
+  height:auto;
+
+}
+.bgimage5 {
+  width:100vw;
+  height:825px;
+}
+
+.bgimage6 {
+  width:100vw;
+  height:auto;
+  padding-bottom: 50px;
+}
+
+.bgimage7 {
+  width:100vw;
+  height:auto;
+}
+
+hr {
+    width: 300px;
+}
+
+}
+
+@media screen and (min-width: 1600px) {
+
+header {
+  height: 100vh;
+}
+
+body > header > div:nth-child(3) {
+  padding-top: 3%;
+}
+
+body > header > div:nth-child(3) > div > a > img {
+  width: 3%;
+  height: 0%;
+}
+
+}
